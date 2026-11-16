@@ -1,0 +1,29 @@
+# Dependencies and Next.js output
+node_modules/
+.next/
+out/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+
+# Test and tooling output
+coverage/
+*.log
+*.tsbuildinfo
+
+# Editors and operating system
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local planning/runtime scratch
+.superpowers/
